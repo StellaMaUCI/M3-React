@@ -1,0 +1,147 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    color: #000000;
+    background-color: #f9f8f6;
+    background-image: url("https://cpb-us-e2.wpmucdn.com/sites.uci.edu/dist/c/2129/files/2015/04/DSCN0249.jpg");
+    background-position: center;
+    font-family: Georgia, times, serif;
+    line-height: 1.4em;
+    margin: 50px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 1px solid #D6EAF8;
+    background-color: #D6EAF8;
+}
+
+header {
+    height: 160px;
+    text-align: -webkit-center;
+    font-size: 20px;
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 40px;
+    height: 130px;
+    margin: 0px;
+}
+nav,
+footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #c6beb5;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000000;
+}
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin: 20px;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 30px;
+    border-bottom: 1px solid #c6beb5;
+}
+
+aside section a:hover {
+    color: #ffffff;
+    background-color: #ffd200;  /* UCI gold */
+}
+
+a {
+    color: #555759;  /* aside words color */
+    text-decoration: -moz-mac-chrome-inactive;
+}
+
+h1,
+h2,
+h3,
+
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+    color: #0064a4;  /* UCI Blue */
+}
+
+h3 {
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    color: #6aa2b8; /* UCI light blue */
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #0064a4; /* UCI Blue */
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+	
