@@ -11,11 +11,13 @@ function start() {
             );
         }
     }
+    // this.props 对象的属性与组件的属性一一对应，但是有一个例外，就是 this.props.children 属性。它表示组件的所有子节点
+    // React.createElement(type, {props}, [...children])
     const rootElement =
         React.createElement("header", {}, // parent tag encapsulates all tags underneath
-            React.createElement("h1", {},), // child tag of parent
-            React.createElement("nav", {}, // second child tag
-                React.createElement("ul", {}, //unordered list
+            React.createElement("h1", {},), // child 1
+            React.createElement("nav", {}, // child 2
+                React.createElement("ul", {}, //unordered list is a child of child 2
                     React.createElement(
                         NavBar, {
                         href: "",  // second parameter is props
@@ -41,7 +43,8 @@ function start() {
                     }
                     )
                 )
-            ));
+            )
+        );
     ReactDOM.render(rootElement,
         document.getElementById("mainContainer")
     );
