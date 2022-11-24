@@ -1,4 +1,4 @@
-function sayHi(humanName: string) {
-  alert(`Hello, ${humanName}!`);
+function showAlert(alertName: string) {
+  alert(`Sorry, it's still  ${alertName}!`);
 }
-sayHi("Stella Ma");
+showAlert("Under Construction");

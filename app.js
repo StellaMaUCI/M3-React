@@ -1,4 +1,4 @@
-function sayHi(humanName) {
-    alert("Hello, ".concat(humanName, "!"));
+function showAlert(alertName) {
+    alert("Sorry, it's still  ".concat(alertName, "!"));
 }
-sayHi("Stella Ma");
+showAlert("Under Construction");
